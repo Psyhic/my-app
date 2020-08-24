@@ -24,15 +24,15 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#Commands in Order to Deploy
-npm install gh-pages --save-dev
-git init 
-git remote add origin https://github.com/  (--to your path)
+#@Commands in Order to Deploy
+npm install gh-pages --save-dev<br />
+git init <br />
+git remote add origin https://github.com/  (--to your path)<br />
 #Important addition in file 
-In package.json add in first bracket "homepage": "https://username.github.io/reponame"
-And in scripts add "predeploy": "npm run build","deploy": "gh-pages -d build",
-git status
-git add .
-git commit -m "anything"
-npm run deploy
-git push -u origin master
+In package.json add in first bracket "homepage": "https://username.github.io/reponame"<br />
+And in scripts add "predeploy": "npm run build","deploy": "gh-pages -d build",<br />
+git status<br />
+git add .<br />
+git commit -m "anything"<br />
+npm run deploy<br />
+git push -u origin master<br />
